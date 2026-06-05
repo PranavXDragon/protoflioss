@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+         <a href="#" class="logo">Pranav.dev</a>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+</nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Pranav</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+           <p>Computer Science student passionate about Cybersecurity,Artificial Intelligence, and System Development.I enjoy building security tools, AI assistants,and experimenting with networking in my home lab. </p>
+            <div class="social-icons">
+                <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+        <section class="skills" id="skills">
+
+<h2 class="heading">Skills</h2>
+
+<div class="skills-grid">
+
+    <div class="skill">
+        <div class="skill-info"><h4>Python</h4><span>Advanced</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info"><h4>HTML / CSS</h4><span>Advanced</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info"><h4>Cybersecurity</h4><span>Intermediate</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info"><h4>Networking</h4><span>Intermediate</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info"><h4>Linux</h4><span>Advanced</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info"><h4>AI Development</h4><span>Intermediate</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+    </div>
+
+</div>
+
+</section>
+<section class="education" id="education">
+
+<h2 class="heading">Education</h2>
+
+<div class="timeline">
+
+    <div class="timeline-item">
+        <span class="time">2025 - Present</span>
+        <h3>Bachelor of Computer Science</h3>
+        <p>University — Focus: Cybersecurity, Artificial Intelligence.</p>
+    </div>
+
+    <div class="timeline-item">
+        <span class="time">2022 - 2024</span>
+        <h3>High School Diploma</h3>
+        <p>Relevant coursework: Mathematics, Computer Science.</p>
+    </div>
+
+</div>
+
+</section>
+<section class="experience" id="experience">
+
+<h2 class="heading">Experience</h2>
+
+<div class="experience-list">
+
+    <article class="experience-card">
+        <h3>AI Voice Assistant — Personal Project</h3>
+        <span class="role-time">2024 — Present</span>
+        <p>Built a voice-enabled assistant using speech-to-text, intent handling and lightweight ML models. Integrated local tools and automation for home-lab tasks.</p>
+    </article>
+
+    <article class="experience-card">
+        <h3>Home Lab Networking & Monitoring</h3>
+        <span class="role-time">2023 — Present</span>
+        <p>Designed network topology, automated monitoring, and deployable configs for testing security scenarios.</p>
+    </article>
+
+</div>
+
+</section>
+<section class="contact" id="contact">
+
+<h2 class="heading">Contact</h2>
+
+<div class="contact-grid">
+
+    <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:pranav@example.com">pranavNavghare46@example.com</a></p>
+        <p><strong>Phone:</strong> +91 9356671329</p>
+        <p><strong>Location:</strong> Nagpur, India</p>
+        <div class="social-icons contact-social">
+            <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+        <input type="text" id="userName" placeholder="Your Name" required>
+        <input type="email" id="userEmail" placeholder="Your Email" required>
+        <input type="text" id="userSubject" placeholder="Subject">
+        <textarea rows="6" id="userMessage" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        <div id="formMessage" class="form-message"></div>
+    </form>
+
+</div>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>
